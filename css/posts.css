@@ -1,0 +1,410 @@
+.hd-options {
+	float: left;
+	direction: ltr;
+	margin-top: 17px;
+}
+
+.hd-options * {
+	display: inline-block;
+}
+
+.hd-options a {
+	border-radius: 50%;
+	padding: 0px 4px;
+	margin: 0 2.5px;
+	background-color: #eaeaea;
+	box-shadow: 1px 1px 5px black;
+	transition: opacity 0.5s;
+}
+
+.hd-options a i {
+	position: relative;
+	top: 3.5px;
+	color: rgb(34, 42, 53);
+}
+
+#hd-cart {
+	background-color: rgb(0, 176, 240);
+}
+
+#hd-cart i {
+	color: white;
+	font-size: 20px;
+	margin: 3px 2px;
+}
+
+.hd-options a:hover {
+	opacity: 0.5;
+}
+
+.nav-menu {
+	display: none;
+}
+
+.hd-search-box {
+	position: relative;
+	top: -5px;
+}
+
+.hd-search-box * {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+.hd-search-box {
+	background-color: #eaeaea;
+	border-radius: 30px;
+	width: 180px;
+	margin-left: 5px;
+	position: relative;
+	top: -3.5px;
+	box-shadow: 1px 1px 5px black;
+}
+
+.hd-search-box button {
+	float: left;
+	height: 30px;
+}
+
+.hd-search-box i {
+	font-size: 25px;
+}
+
+.hd-search-box input {
+	width: 79%;
+	direction: rtl;
+	height: 30px;
+	padding: 10px;
+}
+
+.hd-search-box button:focus {
+	outline: none;
+}
+
+#nav-search {
+	display: none;
+}
+
+.address-bar {
+	width: 100%;
+	background-color: lightgray;
+	padding: 5px 10%;
+	color: gray;
+	font-size: 12px;
+	text-align: right;
+	box-shadow: 1px 1px 5px lightgray;
+}
+
+.close-nav {
+	display: none;
+}
+
+.container-fluid {
+	margin: 30px 0;
+	padding: 0 40px;
+}
+
+.content {
+	direction: rtl;
+	padding: 0px;
+}
+
+.container-fluid {
+	padding: 50px;
+}
+.content .container-fluid content.sidebar {
+	height: auto;
+}
+
+.content .main {
+	height: auto;
+}
+
+.sidebar {
+	text-align: right;
+	border-left: 1px solid rgb(230, 230, 230);
+}
+
+.sidebar-title {
+	display: block;
+	color: rgb(0, 176, 240);
+	direction: rtl;
+	margin-bottom: 20px;
+}
+
+.sidebar-title::before {
+	font-family: "Material Icons";
+	content: "\e86c";
+	display: inline-block;
+	margin-left: 5px;
+	position: relative;
+	top: 5px;
+}
+
+.sidebar-title::after {
+	font-family: "Material Icons";
+	content: "\e5db";
+	float: left;
+	position: relative;
+	top: 5px;
+}
+
+/* 
+
+
+
+.sidebar-content::before
+{
+    font-family: "Material Icons";
+	content: "\e86c";
+	display: inline-block;
+	margin-left: 5px;
+	position: relative;
+	top: 5px;
+}
+
+.sidebar-content::after
+{
+    font-family: "Material Icons";
+	content: "\e5db";
+	float: left;
+	position: relative;
+	top: 5px;
+} */
+
+img {
+	text-align: right;
+	margin-left: 15px;
+}
+
+.sidebar img {
+	padding-left: 10px;
+	margin-bottom: 25px;
+}
+
+.sidebar-content {
+	display: inline-block;
+}
+
+.sidebar-content h6 {
+	cursor: pointer;
+}
+
+.sidebar-content h6:hover {
+	background-color: gray;
+	transition: 0.5s;
+}
+
+.space {
+	padding: 30px;
+}
+
+.main {
+	padding: 0 20px;
+}
+
+.main .product-title {
+	text-align: right;
+	color: gray;
+}
+
+main .product-img {
+	width: 100%;
+	margin-top: 15px;
+	box-shadow: -4px 6px 5px 0px rgba(205, 207, 209, 1);
+}
+
+.main .product-description {
+	margin-top: 20px;
+	text-align: justify;
+	direction: rtl;
+	text-justify: inter-word;
+	color: gray;
+}
+
+.main .product-demo-title {
+	color: gray;
+	margin-top: 30px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.main .product-demo-box {
+	display: flex;
+	width: 100%;
+}
+
+.main .product-demo-box > div {
+	flex: 1;
+	margin: 5px;
+	text-align: right;
+}
+
+.main .product-demo-box > div video {
+	width: 100%;
+}
+
+.box {
+	width: 100%;
+}
+
+.posts {
+	background-color: whitesmoke;
+	height: 70px;
+	width: 40%;
+	margin-left: 270px;
+	border: 2px solid lightgray;
+	border-radius: 5px;
+	box-shadow: -4px 6px 5px 0px rgba(205, 207, 209, 1);
+
+	cursor: pointer;
+}
+
+.posts h5 {
+	text-align: center;
+	margin-top: 20px;
+	color: #666c73;
+}
+
+.posts:hover {
+	background-color: #f2fffd;
+	transition: 0.5s;
+	color: white;
+}
+
+.line {
+	border: 1px solid lightgray;
+	width: 90%;
+	margin-left: 75px;
+	margin-top: 50px;
+}
+
+.social-media-icons h3 {
+	float: right;
+	color: #666c73;
+	margin-right: 130px;
+}
+
+.social-media-icons .Icon {
+	text-align: center;
+	cursor: pointer;
+}
+
+.details h6 {
+	display: inline-block;
+	padding: 3px 30px;
+	color: #666c73;
+	margin-left: 180px;
+}
+
+#f {
+	color: #0f74bd;
+}
+
+#f:hover {
+	color: #369be3;
+	transition: 0.25s;
+}
+
+#i {
+	color: #d4380d;
+}
+
+#i:hover {
+	color: #e66440;
+	transition: 0.25s;
+}
+
+#t {
+	color: #1ab8db;
+}
+
+#t:hover {
+	color: #3dd1f2;
+	transition: 0.25s;
+}
+
+#p {
+	color: #e32205;
+}
+
+#p:hover {
+	color: #f55942;
+	transition: 0.25s;
+}
+
+#g {
+	color: #f55942;
+}
+
+#g:hover {
+	color: #eb7352;
+	transition: 0.25s;
+}
+
+#w {
+	color: #62cf15;
+}
+
+#w:hover {
+	color: #8ed65c;
+	transition: 0.25s;
+}
+
+.Icons {
+	text-align: center;
+	margin-right: 40px;
+	width: 100%;
+	cursor: pointer;
+}
+
+#W {
+	margin-left: 30px;
+	color: #25e635;
+}
+
+#W:hover {
+	color: #6eff72;
+	transition: 0.5s;
+}
+
+#P {
+	margin-left: 30px;
+	color: #e32205;
+}
+
+#P:hover {
+	color: #eb6652;
+	transition: 0.25s;
+}
+
+#T {
+	margin-left: 30px;
+	color: #18def0;
+}
+
+#T:hover {
+	color: #7dfff8;
+	transition: 0.5s;
+}
+
+#I {
+	margin-left: 30px;
+	color: #d4380d;
+}
+
+#I:hover {
+	color: #e68a77;
+	transition: 0.5s;
+}
+
+#F {
+	margin-left: 30px;
+	color: #226ff5;
+}
+
+#F:hover {
+	color: #3dd1f2;
+	transition: 0.5s;
+}

@@ -1,0 +1,6 @@
+-- Bugs and Errors --
+
+1) Header:
+    -big search box in the home header: z-index doesn't working.
+    -Responsive mode is not okay with overlittle sized phones like iPhone 5.
+    -Logo doesn't have the suitable quality.
